@@ -30,6 +30,8 @@ class GS():
 					last_date = date
 				elif last_date < date:
 					last_date = date
+		if last_date is None:
+			return "No updates found"
 		return(last_date.strftime("%Y-%m-%d"))
 	
 	def get_games(self):

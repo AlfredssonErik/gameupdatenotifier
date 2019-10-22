@@ -4,8 +4,8 @@ A scraper that keeps track of new updates for your steam games and inserts them 
 ## Start
 `python run.py`
 
-1. Scrape all: This will scrape the updates of the games listed in `games.py`
-2. Get games list: This will get all the games from sheet 2 in google sheets
+1. Scrape all: This will scrape the updates of the games listed in sheet 2 of your Google sheets document, see section 'Google sheets'
+2. Get games list: This will get all the games from sheet 2 in Google sheets along with date of latest update
 3. Start autoscraper: This will start a task to scrape updates every 30 seconds
 
 ## Google API Key
